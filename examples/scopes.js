@@ -30,5 +30,22 @@
 
 //arrow function
 
-const myName = ()=>console.log("hari")
-console.log(myName())
+// const myName = ()=>console.log("hari")
+// console.log(myName())
+// console.log( 1+ null)
+
+
+//spread and rest operator example
+
+// const arr = [1,2,3,4]
+// console.log(...arr) //spread
+
+function display(first,second, ...other){
+    console.log(first)
+    console.log(second)
+    console.log(other)  //rest operator
+
+}
+display(1,2,3,4,5,6)
+
+
