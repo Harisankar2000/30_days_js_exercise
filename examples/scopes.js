@@ -47,5 +47,3 @@ function display(first,second, ...other){
 
 }
 display(1,2,3,4,5,6)
-
-
